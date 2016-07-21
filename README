@@ -1,0 +1,16 @@
+locate a file:
+----------------
+samweb locate-file "ana_hist_412fb0ea-19aa-4b27-87f1-7d2249feada1.root"
+
+
+
+count files:
+-----------------
+samweb count-files "defname:prodgenie_bnb_nu_uboone_mcc7_anatree" 
+
+
+
+get list of files:
+-----------------
+samweb list-files "defname:prodgenie_bnb_nu_uboone_mcc7_anatree" > mcc7FileNames.list
+# -B-AnalysisTrees
